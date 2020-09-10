@@ -1,0 +1,720 @@
+admin.nodeInfo.enode
+eth.accounts[][D0]
+[A[Beth
+eth.accounts
+personal
+eth.accounts
+1
+miner.start()
+eth.getBalance()[Deth.account[][D0])
+[2~wqewe[D[D123123[D[2~123123[D[D[D123123[D[D[D[D[D[D[D[D
+eth.getBalance()
+eth.getBalance(eth.accounts[0])
+miner.stop()
+eth.getBalance(eth.accounts[0])
+personal
+var abi = [
+{
+		"constant": true,
+		"inputs": [],
+		"name": "showStr",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "newStr",
+				"type": "string"
+			}
+		],
+		"name": "changeStr",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
+var abi = [{"constant":true,"inputs":[],"name":"showStr","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"newStr","type":"string"}],"name":"changeStr","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"}]
+var contract = web3.eth.contract()[Dabi)
+abi
+var abi = [{"constant":false,"inputs":[{"name":"newStr","type":"string"}],"name":"changeStr","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"showStr","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"}]
+abi
+var contract = web3.eth.contract()[Dabi)
+var contract_address=
+mo@DESKTOP-KT4GSUT MINGW64 ~/Desktop/code/SRP/SRP/learn_eth (master)
+$ geth --datadir data0 genesis.json
+invalid command: "genesis.json"
+mo@DESKTOP-KT4GSUT MINGW64 ~/Desktop/code/SRP/SRP/learn_eth (master)
+$ geth --datadir data0 init genesis.json
+INFO [09-09|18:06:12.675] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [09-09|18:06:12.716] Set global gas cap                       cap=25000000
+INFO [09-09|18:06:12.716] Allocated cache and file handles         database=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\chaindata cache=16.00MiB handles=16
+INFO [09-09|18:06:12.725] Writing custom genesis block
+INFO [09-09|18:06:12.725] Persisted trie from memory database      nodes=3 size=399.00B time=0s gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [09-09|18:06:12.730] Successfully wrote genesis state         database=chaindata hash="a3c5c1…d6926b"
+INFO [09-09|18:06:12.730] Allocated cache and file handles         database=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\lightchaindata cache=16.00MiB handles=16
+INFO [09-09|18:06:12.736] Writing custom genesis block
+INFO [09-09|18:06:12.737] Persisted trie from memory database      nodes=3 size=399.00B time=1.0005ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [09-09|18:06:12.740] Successfully wrote genesis state         database=lightchaindata hash="a3c5c1…d6926b"
+mo@DESKTOP-KT4GSUT MINGW64 ~/Desktop/code/SRP/SRP/learn_eth (master)
+$ geth --datadir data0 --networkid 1108 --nodiscover console 2
+INFO [09-09|18:06:48.194] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [09-09|18:06:48.228] Set global gas cap                       cap=25000000
+INFO [09-09|18:06:48.228] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [09-09|18:06:48.228] Allocated cache and file handles         database=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\chaindata cache=512.00MiB handles=8192
+INFO [09-09|18:06:48.262] Opened ancient database                  database=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\chaindata\ancient
+INFO [09-09|18:06:48.262] Initialised chain configuration          config="{ChainID: 15 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, YOLO v1: <nil>, Engine: unknown}"
+INFO [09-09|18:06:48.262] Disk storage enabled for ethash caches   dir=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\ethash count=3
+INFO [09-09|18:06:48.262] Disk storage enabled for ethash DAGs     dir=C:\Users\mo\AppData\Local\Ethash count=2
+INFO [09-09|18:06:48.262] Initialising Ethereum protocol           versions="[65 64 63]" network=1108 dbversion=<nil>
+WARN [09-09|18:06:48.262] Upgrade blockchain database version      from=<nil> to=8
+INFO [09-09|18:06:48.263] Loaded most recent local header          number=0 hash="a3c5c1…d6926b" td=131072 age=51y5mo4d
+INFO [09-09|18:06:48.263] Loaded most recent local full block      number=0 hash="a3c5c1…d6926b" td=131072 age=51y5mo4d
+INFO [09-09|18:06:48.263] Loaded most recent local fast block      number=0 hash="a3c5c1…d6926b" td=131072 age=51y5mo4d
+INFO [09-09|18:06:48.264] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [09-09|18:06:48.269] Allocated fast sync bloom                size=512.00MiB
+INFO [09-09|18:06:48.269] Initialized fast sync bloom              items=3 errorrate=0.000 elapsed=0s
+INFO [09-09|18:06:48.270] Starting peer-to-peer node               instance=Geth/v1.9.21-stable-0287d548/windows-amd64/go1.15
+INFO [09-09|18:06:48.279] New local node record                    seq=1 id=c5cbd79eaadd4c7d ip=127.0.0.1 udp=0 tcp=30303
+INFO [09-09|18:06:48.279] Started P2P networking                   self="enode://00c572104fca950008ffa99de2165ba97656efbd0fce15f73833d514a3f8420e8b6c0a36836efe458f06eb1788620a3acd3d3a40dedc5f759b8608cf9ebe913e@127.0.0.1:30303?discport=0"
+INFO [09-09|18:06:48.280] IPC endpoint opened                      url=\\.\pipe\geth.ipc
+WARN [09-09|18:06:48.315] Served eth_coinbase                      reqid=3 t=0s err="etherbase must be explicitly specified"
+Welcome to the Geth JavaScript console!
+instance: Geth/v1.9.21-stable-0287d548/windows-amd64/go1.15
+at block: 0 (Thu Jan 01 1970 08:00:00 GMT+0800 (CST))
+> admin.nodeInfo.enode
+"enode://00c572104fca950008ffa99de2165ba97656efbd0fce15f73833d514a3f8420e8b6c0a36836efe458f06eb1788620a3acd3d3a40dedc5f759b8608cf9ebe913e@127.0.0.1:30303?discport=0"
+> caught interrupt, exiting
+INFO [09-09|18:10:51.464] Got interrupt, shutting down...
+INFO [09-09|18:10:51.465] IPC endpoint closed                      url=\\.\pipe\geth.ipc
+INFO [09-09|18:10:51.472] Deallocated fast sync bloom              items=3 errorrate=0.000
+INFO [09-09|18:10:51.472] Ethereum protocol stopped
+INFO [09-09|18:10:51.472] Transaction pool stopped
+INFO [09-09|18:10:51.472] Writing clean trie cache to disk         path=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\triecache threads=12
+INFO [09-09|18:10:51.476] Persisted the clean trie cache           path=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\triecache elapsed=4.001ms
+INFO [09-09|18:10:51.476] Blockchain stopped
+mo@DESKTOP-KT4GSUT MINGW64 ~/Desktop/code/SRP/SRP/learn_eth (master)
+$ geth --datadir data0 --networkid 1108 --nodiscover --ipcdisable console 2
+INFO [09-09|18:11:06.148] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [09-09|18:11:06.182] Set global gas cap                       cap=25000000
+INFO [09-09|18:11:06.182] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [09-09|18:11:06.182] Allocated cache and file handles         database=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\chaindata cache=512.00MiB handles=8192
+INFO [09-09|18:11:06.210] Opened ancient database                  database=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\chaindata\ancient
+INFO [09-09|18:11:06.210] Initialised chain configuration          config="{ChainID: 15 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, YOLO v1: <nil>, Engine: unknown}"
+INFO [09-09|18:11:06.210] Disk storage enabled for ethash caches   dir=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\ethash count=3
+INFO [09-09|18:11:06.210] Disk storage enabled for ethash DAGs     dir=C:\Users\mo\AppData\Local\Ethash count=2
+INFO [09-09|18:11:06.211] Initialising Ethereum protocol           versions="[65 64 63]" network=1108 dbversion=8
+INFO [09-09|18:11:06.212] Loaded most recent local header          number=0 hash="a3c5c1…d6926b" td=131072 age=51y5mo4d
+INFO [09-09|18:11:06.212] Loaded most recent local full block      number=0 hash="a3c5c1…d6926b" td=131072 age=51y5mo4d
+INFO [09-09|18:11:06.212] Loaded most recent local fast block      number=0 hash="a3c5c1…d6926b" td=131072 age=51y5mo4d
+INFO [09-09|18:11:06.212] Loaded local transaction journal         transactions=0 dropped=0
+INFO [09-09|18:11:06.213] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [09-09|18:11:06.218] Allocated fast sync bloom                size=512.00MiB
+INFO [09-09|18:11:06.218] Initialized fast sync bloom              items=3 errorrate=0.000 elapsed=0s
+INFO [09-09|18:11:06.219] Starting peer-to-peer node               instance=Geth/v1.9.21-stable-0287d548/windows-amd64/go1.15
+INFO [09-09|18:11:06.236] New local node record                    seq=2 id=c5cbd79eaadd4c7d ip=127.0.0.1 udp=0 tcp=30303
+INFO [09-09|18:11:06.236] Started P2P networking                   self="enode://00c572104fca950008ffa99de2165ba97656efbd0fce15f73833d514a3f8420e8b6c0a36836efe458f06eb1788620a3acd3d3a40dedc5f759b8608cf9ebe913e@127.0.0.1:30303?discport=0"
+WARN [09-09|18:11:06.271] Served eth_coinbase                      reqid=3 t=0s err="etherbase must be explicitly specified"
+Welcome to the Geth JavaScript console!
+instance: Geth/v1.9.21-stable-0287d548/windows-amd64/go1.15
+at block: 0 (Thu Jan 01 1970 08:00:00 GMT+0800 (CST))
+> admin.nodeInfo.enode
+"enode://00c572104fca950008ffa99de2165ba97656efbd0fce15f73833d514a3f8420e8b6c0a36836efe458f06eb1788620a3acd3d3a40dedc5f759b8608cf9ebe913e@127.0.0.1:30303?discport=0"
+> INFO [09-09|18:12:31.535] Looking for peers                        peercount=1 tried=0 static=0
+INFO [09-09|18:13:53.357] Looking for peers                        peercount=0 tried=0 static=0
+caught interrupt, exiting
+INFO [09-09|18:14:10.754] Got interrupt, shutting down...
+INFO [09-09|18:14:10.836] Deallocated fast sync bloom              items=3 errorrate=0.000
+INFO [09-09|18:14:10.836] Ethereum protocol stopped
+INFO [09-09|18:14:10.836] Transaction pool stopped
+INFO [09-09|18:14:10.836] Writing clean trie cache to disk         path=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\triecache threads=12
+INFO [09-09|18:14:10.845] Persisted the clean trie cache           path=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\triecache elapsed=9.002ms
+INFO [09-09|18:14:10.845] Blockchain stopped
+mo@DESKTOP-KT4GSUT MINGW64 ~/Desktop/code/SRP/SRP/learn_eth (master)
+Welcome to the Geth JavaScript console!
+instance: Geth/v1.9.21-stable-0287d548/windows-amd64/go1.15
+at block: 0 (Thu Jan 01 1970 08:00:00 GMT+0800 (CST))
+GoError: first argument must be the account to unlock
+> eth.accounts[0]
+SyntaxError: (anonymous): Line 1:14 Unexpected token ] (and 2 more errors)
+> eth
+SyntaxError: (anonymous): Line 1:1 Unexpected token ILLEGAL (and 2 more errors)
+> eth.accounts
+[]
+!! Unsupported terminal, password will be echoed.
+Passphrase: 123456
+Repeat passphrase: 123456
+"0x415c462b5fc8388e995cb7c217c550974f73ba2d"
+SyntaxError: (anonymous): Line 1:51 Unexpected token ILLEGAL (and 72 more errors)
+> eth.accounts
+["0x415c462b5fc8388e995cb7c217c550974f73ba2d"]
+SyntaxError: (anonymous): Line 1:51 Unexpected token ILLEGAL (and 23 more errors)
+GoError: Error: account unlock with HTTP access is forbidden at web3.js:6347:37(47)
+>
+> personal
+{
+  listAccounts: ["0x415c462b5fc8388e995cb7c217c550974f73ba2d"],
+  listWallets: [{
+      accounts: [{...}],
+      status: "Locked",
+      url: "keystore://C:\\Users\\mo\\Desktop\\code\\SRP\\SRP\\learn_eth\\data0\\keystore\\UTC--2020-09-09T10-17-07.551270900Z--415c462b5fc8388e995cb7c217c550974f73ba2d"
+  }],
+  deriveAccount: function(),
+  ecRecover: function(),
+  getListAccounts: function(callback),
+  getListWallets: function(callback),
+  importRawKey: function(),
+  initializeWallet: function(),
+  lockAccount: function(),
+  newAccount: function(),
+  openWallet: function(),
+  sendTransaction: function(),
+  sign: function(),
+  signTransaction: function(),
+  unlockAccount: function(),
+  unpair: function()
+}
+...
+... ;
+...
+... )
+...
+... ,
+...
+... 。
+...
+... 123123
+... caught interrupt, exiting
+mo@DESKTOP-KT4GSUT MINGW64 ~/Desktop/code/SRP/SRP/learn_eth (master)
+" --nodiscover --ipcdisable console 2>>geth.log,txpool,web3"  --rpccorsdomain "*"
+Welcome to the Geth JavaScript console!
+instance: Geth/v1.9.21-stable-0287d548/windows-amd64/go1.15
+coinbase: 0x415c462b5fc8388e995cb7c217c550974f73ba2d
+at block: 0 (Thu Jan 01 1970 08:00:00 GMT+0800 (CST))
+> eth.accounts
+["0x415c462b5fc8388e995cb7c217c550974f73ba2d"]
+> personna.unlickAccount(eth.accounts[0],"123456",0)
+...    ee
+... caught interrupt, exiting
+mo@DESKTOP-KT4GSUT MINGW64 ~/Desktop/code/SRP/SRP/learn_eth (master)
+" --nodiscover --ipcdisable console 2>>geth.log,txpool,web3"  --rpccorsdomain "*"
+Welcome to the Geth JavaScript console!
+instance: Geth/v1.9.21-stable-0287d548/windows-amd64/go1.15
+coinbase: 0x415c462b5fc8388e995cb7c217c550974f73ba2d
+at block: 0 (Thu Jan 01 1970 08:00:00 GMT+0800 (CST))
+> 1
+1
+> miner.start()
+null
+> eth.getBalance(eth.account[0])
+SyntaxError: (anonymous): Line 1:17 Unexpected token ILLEGAL (and 6 more errors)
+SyntaxError: (anonymous): Line 1:1 Unexpected token ILLEGAL (and 17 more errors)
+>
+> eth.getBalance()
+Error: invalid address
+> eth.getBalance(eth.accounts[0])
+136000000000000000000
+> miner.stop()
+null
+> eth.getBalance(eth.accounts[0])
+152000000000000000000
+> personal
+{
+  listAccounts: ["0x415c462b5fc8388e995cb7c217c550974f73ba2d"],
+  listWallets: [{
+      accounts: [{...}],
+      status: "Locked",
+      url: "keystore://C:\\Users\\mo\\Desktop\\code\\SRP\\SRP\\learn_eth\\data0\\keystore\\UTC--2020-09-09T10-17-07.551270900Z--415c462b5fc8388e995cb7c217c550974f73ba2d"
+  }],
+  deriveAccount: function(),
+  ecRecover: function(),
+  getListAccounts: function(callback),
+  getListWallets: function(callback),
+  importRawKey: function(),
+  initializeWallet: function(),
+  lockAccount: function(),
+  newAccount: function(),
+  openWallet: function(),
+  sendTransaction: function(),
+  sign: function(),
+  signTransaction: function(),
+  unlockAccount: function(),
+  unpair: function()
+}
+function()
+... ;
+... eth
+... caught interrupt, exiting
+mo@DESKTOP-KT4GSUT MINGW64 ~/Desktop/code/SRP/SRP/learn_eth (master)
+" --nodiscover --ipcdisable console 2rsonal,shh,txpool,web3"  --rpccorsdomain "*"
+INFO [09-09|18:42:45.752] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [09-09|18:42:45.760] The flag --rpc is deprecated and will be removed in the future, please use --http
+WARN [09-09|18:42:45.760] The flag --rpcaddr is deprecated and will be removed in the future, please use --http.addr
+WARN [09-09|18:42:45.760] The flag --rpcport is deprecated and will be removed in the future, please use --http.port
+WARN [09-09|18:42:45.760] The flag --rpccorsdomain is deprecated and will be removed in the future, please use --http.corsdomain
+WARN [09-09|18:42:45.760] The flag --rpcapi is deprecated and will be removed in the future, please use --http.api
+INFO [09-09|18:42:45.786] Set global gas cap                       cap=25000000
+INFO [09-09|18:42:45.786] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [09-09|18:42:45.786] Allocated cache and file handles         database=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\chaindata cache=512.00MiB handles=8192
+INFO [09-09|18:42:45.806] Opened ancient database                  database=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\chaindata\ancient
+INFO [09-09|18:42:45.806] Initialised chain configuration          config="{ChainID: 15 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, YOLO v1: <nil>, Engine: unknown}"
+INFO [09-09|18:42:45.806] Disk storage enabled for ethash caches   dir=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\ethash count=3
+INFO [09-09|18:42:45.806] Disk storage enabled for ethash DAGs     dir=C:\Users\mo\AppData\Local\Ethash count=2
+INFO [09-09|18:42:45.806] Initialising Ethereum protocol           versions="[65 64 63]" network=1108 dbversion=8
+INFO [09-09|18:42:45.808] Loaded most recent local header          number=76 hash="4851f5…f46eae" td=10271102 age=18m40s
+INFO [09-09|18:42:45.808] Loaded most recent local full block      number=76 hash="4851f5…f46eae" td=10271102 age=18m40s
+INFO [09-09|18:42:45.808] Loaded most recent local fast block      number=76 hash="4851f5…f46eae" td=10271102 age=18m40s
+INFO [09-09|18:42:45.808] Loaded local transaction journal         transactions=0 dropped=0
+INFO [09-09|18:42:45.809] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [09-09|18:42:45.809] Switch sync mode from fast sync to full sync
+INFO [09-09|18:42:45.809] Starting peer-to-peer node               instance=Geth/v1.9.21-stable-0287d548/windows-amd64/go1.15
+INFO [09-09|18:42:45.833] New local node record                    seq=6 id=c5cbd79eaadd4c7d ip=127.0.0.1 udp=0 tcp=30303
+INFO [09-09|18:42:45.833] Started P2P networking                   self="enode://00c572104fca950008ffa99de2165ba97656efbd0fce15f73833d514a3f8420e8b6c0a36836efe458f06eb1788620a3acd3d3a40dedc5f759b8608cf9ebe913e@127.0.0.1:30303?discport=0"
+ERROR[09-09|18:42:45.833] Unavailable modules in HTTP API list     unavailable=[shh] available="[admin debug web3 eth txpool personal ethash miner net]"
+INFO [09-09|18:42:45.833] HTTP server started                      endpoint=[::]:8545 cors=* vhosts=localhost
+INFO [09-09|18:42:45.868] Etherbase automatically configured       address=0x415c462b5fC8388E995CB7c217C550974F73bA2D
+Welcome to the Geth JavaScript console!
+instance: Geth/v1.9.21-stable-0287d548/windows-amd64/go1.15
+coinbase: 0x415c462b5fc8388e995cb7c217c550974f73ba2d
+at block: 76 (Wed Sep 09 2020 18:24:05 GMT+0800 (CST))
+> var abi = [
+SyntaxError: (anonymous): Line 2:13 Unexpected token : (and 6 more errors)
+> ]
+SyntaxError: (anonymous): Line 1:1 Unexpected token ]
+> var abi = [{"constant":true,"inputs":[],"name":"showStr","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"newStr","type":"string"}],"name":"changeStr","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"}]
+undefined
+> var contract = web3.eth.contract(abi)
+SyntaxError: (anonymous): Line 1:35 Unexpected token ILLEGAL (and 3 more errors)
+> WARN [09-09|18:49:57.829] Served eth_sendTransaction               conn=127.0.0.1:63368 reqid=1193 t="998.9µs" err="authentication needed: password or unlock"
+caught interrupt, exiting
+INFO [09-09|18:50:35.808] Got interrupt, shutting down...
+INFO [09-09|18:50:36.308] HTTP server stopped                      endpoint=[::]:8545
+INFO [09-09|18:50:36.308] Ethereum protocol stopped
+INFO [09-09|18:50:36.308] Transaction pool stopped
+INFO [09-09|18:50:36.308] Writing cached state to disk             block=76 hash="4851f5…f46eae" root="656ee9…e01a05"
+INFO [09-09|18:50:36.308] Persisted trie from memory database      nodes=0 size=0.00B time=0s gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [09-09|18:50:36.308] Writing cached state to disk             block=75 hash="e569a3…d4de96" root="55e821…7c6c1d"
+INFO [09-09|18:50:36.308] Persisted trie from memory database      nodes=0 size=0.00B time=0s gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [09-09|18:50:36.308] Writing clean trie cache to disk         path=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\triecache threads=12
+INFO [09-09|18:50:36.315] Persisted the clean trie cache           path=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\triecache elapsed=7.039ms
+INFO [09-09|18:50:36.315] Blockchain stopped
+mo@DESKTOP-KT4GSUT MINGW64 ~/Desktop/code/SRP/SRP/learn_eth (master)
+" --nodiscover --ipcdisable console 2rsonal,shh,txpool,web3"  --rpccorsdomain "*"
+INFO [09-09|18:50:46.696] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [09-09|18:50:46.704] The flag --rpc is deprecated and will be removed in the future, please use --http
+WARN [09-09|18:50:46.704] The flag --rpcaddr is deprecated and will be removed in the future, please use --http.addr
+WARN [09-09|18:50:46.704] The flag --rpcport is deprecated and will be removed in the future, please use --http.port
+WARN [09-09|18:50:46.704] The flag --rpccorsdomain is deprecated and will be removed in the future, please use --http.corsdomain
+WARN [09-09|18:50:46.704] The flag --rpcapi is deprecated and will be removed in the future, please use --http.api
+INFO [09-09|18:50:46.730] Set global gas cap                       cap=25000000
+INFO [09-09|18:50:46.730] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [09-09|18:50:46.730] Allocated cache and file handles         database=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\chaindata cache=512.00MiB handles=8192
+INFO [09-09|18:50:46.760] Opened ancient database                  database=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\chaindata\ancient
+INFO [09-09|18:50:46.761] Initialised chain configuration          config="{ChainID: 15 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, YOLO v1: <nil>, Engine: unknown}"
+INFO [09-09|18:50:46.761] Disk storage enabled for ethash caches   dir=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\ethash count=3
+INFO [09-09|18:50:46.761] Disk storage enabled for ethash DAGs     dir=C:\Users\mo\AppData\Local\Ethash count=2
+INFO [09-09|18:50:46.761] Initialising Ethereum protocol           versions="[65 64 63]" network=1108 dbversion=8
+INFO [09-09|18:50:46.763] Loaded most recent local header          number=76 hash="4851f5…f46eae" td=10271102 age=26m41s
+INFO [09-09|18:50:46.763] Loaded most recent local full block      number=76 hash="4851f5…f46eae" td=10271102 age=26m41s
+INFO [09-09|18:50:46.763] Loaded most recent local fast block      number=76 hash="4851f5…f46eae" td=10271102 age=26m41s
+INFO [09-09|18:50:46.763] Loaded local transaction journal         transactions=0 dropped=0
+INFO [09-09|18:50:46.764] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [09-09|18:50:46.764] Switch sync mode from fast sync to full sync
+INFO [09-09|18:50:46.764] Starting peer-to-peer node               instance=Geth/v1.9.21-stable-0287d548/windows-amd64/go1.15
+INFO [09-09|18:50:46.785] New local node record                    seq=7 id=c5cbd79eaadd4c7d ip=127.0.0.1 udp=0 tcp=30303
+INFO [09-09|18:50:46.785] Started P2P networking                   self="enode://00c572104fca950008ffa99de2165ba97656efbd0fce15f73833d514a3f8420e8b6c0a36836efe458f06eb1788620a3acd3d3a40dedc5f759b8608cf9ebe913e@127.0.0.1:30303?discport=0"
+ERROR[09-09|18:50:46.786] Unavailable modules in HTTP API list     unavailable=[shh] available="[admin debug web3 eth txpool personal ethash miner net]"
+INFO [09-09|18:50:46.786] HTTP server started                      endpoint=[::]:8545 cors=* vhosts=localhost
+INFO [09-09|18:50:46.821] Etherbase automatically configured       address=0x415c462b5fC8388E995CB7c217C550974F73bA2D
+Welcome to the Geth JavaScript console!
+instance: Geth/v1.9.21-stable-0287d548/windows-amd64/go1.15
+coinbase: 0x415c462b5fc8388e995cb7c217c550974f73ba2d
+at block: 76 (Wed Sep 09 2020 18:24:05 GMT+0800 (CST))
+> abi
+ReferenceError: abi is not defined
+> var abi = [{"constant":false,"inputs":[{"name":"newStr","type":"string"}],"name":"changeStr","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"showStr","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"}]
+undefined
+> abi
+[{
+    constant: false,
+    inputs: [{
+        name: "newStr",
+        type: "string"
+    }],
+    name: "changeStr",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: true,
+    inputs: [],
+    name: "showStr",
+    outputs: [{
+        name: "",
+        type: "string"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}]
+> var contract = web3.eth.contract(abi)
+SyntaxError: (anonymous): Line 1:35 Unexpected token ILLEGAL (and 3 more errors)
+> var contract_address=
+mo@DESKTOP-KT4GSUT MINGW64 ~/Desktop/code/SRP/SRP/learn_eth (master)
+$ geth --datadir data0 genesis.json
+invalid command: "genesis.json"
+mo@DESKTOP-KT4GSUT MINGW64 ~/Desktop/code/SRP/SRP/learn_eth (master)
+$ geth --datadir data0 init genesis.json
+INFO [09-09|18:06:12.675] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [09-09|18:06:12.716] Set global gas cap                       cap=25000000
+INFO [09-09|18:06:12.716] Allocated cache and file handles         database=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\chaindata cache=16.00MiB handles=16
+INFO [09-09|18:06:12.725] Writing custom genesis block
+INFO [09-09|18:06:12.725] Persisted trie from memory database      nodes=3 size=399.00B time=0s gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [09-09|18:06:12.730] Successfully wrote genesis state         database=chaindata hash="a3c5c1…d6926b"
+INFO [09-09|18:06:12.730] Allocated cache and file handles         database=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\lightchaindata cache=16.00MiB handles=16
+INFO [09-09|18:06:12.736] Writing custom genesis block
+INFO [09-09|18:06:12.737] Persisted trie from memory database      nodes=3 size=399.00B time=1.0005ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [09-09|18:06:12.740] Successfully wrote genesis state         database=lightchaindata hash="a3c5c1…d6926b"
+mo@DESKTOP-KT4GSUT MINGW64 ~/Desktop/code/SRP/SRP/learn_eth (master)
+$ geth --datadir data0 --networkid 1108 --nodiscover console 2
+INFO [09-09|18:06:48.194] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [09-09|18:06:48.228] Set global gas cap                       cap=25000000
+INFO [09-09|18:06:48.228] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [09-09|18:06:48.228] Allocated cache and file handles         database=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\chaindata cache=512.00MiB handles=8192
+INFO [09-09|18:06:48.262] Opened ancient database                  database=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\chaindata\ancient
+INFO [09-09|18:06:48.262] Initialised chain configuration          config="{ChainID: 15 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, YOLO v1: <nil>, Engine: unknown}"
+INFO [09-09|18:06:48.262] Disk storage enabled for ethash caches   dir=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\ethash count=3
+INFO [09-09|18:06:48.262] Disk storage enabled for ethash DAGs     dir=C:\Users\mo\AppData\Local\Ethash count=2
+INFO [09-09|18:06:48.262] Initialising Ethereum protocol           versions="[65 64 63]" network=1108 dbversion=<nil>
+WARN [09-09|18:06:48.262] Upgrade blockchain database version      from=<nil> to=8
+INFO [09-09|18:06:48.263] Loaded most recent local header          number=0 hash="a3c5c1…d6926b" td=131072 age=51y5mo4d
+INFO [09-09|18:06:48.263] Loaded most recent local full block      number=0 hash="a3c5c1…d6926b" td=131072 age=51y5mo4d
+INFO [09-09|18:06:48.263] Loaded most recent local fast block      number=0 hash="a3c5c1…d6926b" td=131072 age=51y5mo4d
+INFO [09-09|18:06:48.264] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [09-09|18:06:48.269] Allocated fast sync bloom                size=512.00MiB
+INFO [09-09|18:06:48.269] Initialized fast sync bloom              items=3 errorrate=0.000 elapsed=0s
+INFO [09-09|18:06:48.270] Starting peer-to-peer node               instance=Geth/v1.9.21-stable-0287d548/windows-amd64/go1.15
+INFO [09-09|18:06:48.279] New local node record                    seq=1 id=c5cbd79eaadd4c7d ip=127.0.0.1 udp=0 tcp=30303
+INFO [09-09|18:06:48.279] Started P2P networking                   self="enode://00c572104fca950008ffa99de2165ba97656efbd0fce15f73833d514a3f8420e8b6c0a36836efe458f06eb1788620a3acd3d3a40dedc5f759b8608cf9ebe913e@127.0.0.1:30303?discport=0"
+INFO [09-09|18:06:48.280] IPC endpoint opened                      url=\\.\pipe\geth.ipc
+WARN [09-09|18:06:48.315] Served eth_coinbase                      reqid=3 t=0s err="etherbase must be explicitly specified"
+Welcome to the Geth JavaScript console!
+instance: Geth/v1.9.21-stable-0287d548/windows-amd64/go1.15
+at block: 0 (Thu Jan 01 1970 08:00:00 GMT+0800 (CST))
+> admin.nodeInfo.enode
+"enode://00c572104fca950008ffa99de2165ba97656efbd0fce15f73833d514a3f8420e8b6c0a36836efe458f06eb1788620a3acd3d3a40dedc5f759b8608cf9ebe913e@127.0.0.1:30303?discport=0"
+> caught interrupt, exiting
+INFO [09-09|18:10:51.464] Got interrupt, shutting down...
+INFO [09-09|18:10:51.465] IPC endpoint closed                      url=\\.\pipe\geth.ipc
+INFO [09-09|18:10:51.472] Deallocated fast sync bloom              items=3 errorrate=0.000
+INFO [09-09|18:10:51.472] Ethereum protocol stopped
+INFO [09-09|18:10:51.472] Transaction pool stopped
+INFO [09-09|18:10:51.472] Writing clean trie cache to disk         path=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\triecache threads=12
+INFO [09-09|18:10:51.476] Persisted the clean trie cache           path=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\triecache elapsed=4.001ms
+INFO [09-09|18:10:51.476] Blockchain stopped
+mo@DESKTOP-KT4GSUT MINGW64 ~/Desktop/code/SRP/SRP/learn_eth (master)
+$ geth --datadir data0 --networkid 1108 --nodiscover --ipcdisable console 2
+INFO [09-09|18:11:06.148] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [09-09|18:11:06.182] Set global gas cap                       cap=25000000
+INFO [09-09|18:11:06.182] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [09-09|18:11:06.182] Allocated cache and file handles         database=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\chaindata cache=512.00MiB handles=8192
+INFO [09-09|18:11:06.210] Opened ancient database                  database=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\chaindata\ancient
+INFO [09-09|18:11:06.210] Initialised chain configuration          config="{ChainID: 15 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, YOLO v1: <nil>, Engine: unknown}"
+INFO [09-09|18:11:06.210] Disk storage enabled for ethash caches   dir=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\ethash count=3
+INFO [09-09|18:11:06.210] Disk storage enabled for ethash DAGs     dir=C:\Users\mo\AppData\Local\Ethash count=2
+INFO [09-09|18:11:06.211] Initialising Ethereum protocol           versions="[65 64 63]" network=1108 dbversion=8
+INFO [09-09|18:11:06.212] Loaded most recent local header          number=0 hash="a3c5c1…d6926b" td=131072 age=51y5mo4d
+INFO [09-09|18:11:06.212] Loaded most recent local full block      number=0 hash="a3c5c1…d6926b" td=131072 age=51y5mo4d
+INFO [09-09|18:11:06.212] Loaded most recent local fast block      number=0 hash="a3c5c1…d6926b" td=131072 age=51y5mo4d
+INFO [09-09|18:11:06.212] Loaded local transaction journal         transactions=0 dropped=0
+INFO [09-09|18:11:06.213] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [09-09|18:11:06.218] Allocated fast sync bloom                size=512.00MiB
+INFO [09-09|18:11:06.218] Initialized fast sync bloom              items=3 errorrate=0.000 elapsed=0s
+INFO [09-09|18:11:06.219] Starting peer-to-peer node               instance=Geth/v1.9.21-stable-0287d548/windows-amd64/go1.15
+INFO [09-09|18:11:06.236] New local node record                    seq=2 id=c5cbd79eaadd4c7d ip=127.0.0.1 udp=0 tcp=30303
+INFO [09-09|18:11:06.236] Started P2P networking                   self="enode://00c572104fca950008ffa99de2165ba97656efbd0fce15f73833d514a3f8420e8b6c0a36836efe458f06eb1788620a3acd3d3a40dedc5f759b8608cf9ebe913e@127.0.0.1:30303?discport=0"
+WARN [09-09|18:11:06.271] Served eth_coinbase                      reqid=3 t=0s err="etherbase must be explicitly specified"
+Welcome to the Geth JavaScript console!
+instance: Geth/v1.9.21-stable-0287d548/windows-amd64/go1.15
+at block: 0 (Thu Jan 01 1970 08:00:00 GMT+0800 (CST))
+> admin.nodeInfo.enode
+"enode://00c572104fca950008ffa99de2165ba97656efbd0fce15f73833d514a3f8420e8b6c0a36836efe458f06eb1788620a3acd3d3a40dedc5f759b8608cf9ebe913e@127.0.0.1:30303?discport=0"
+> INFO [09-09|18:12:31.535] Looking for peers                        peercount=1 tried=0 static=0
+INFO [09-09|18:13:53.357] Looking for peers                        peercount=0 tried=0 static=0
+caught interrupt, exiting
+INFO [09-09|18:14:10.754] Got interrupt, shutting down...
+INFO [09-09|18:14:10.836] Deallocated fast sync bloom              items=3 errorrate=0.000
+INFO [09-09|18:14:10.836] Ethereum protocol stopped
+INFO [09-09|18:14:10.836] Transaction pool stopped
+INFO [09-09|18:14:10.836] Writing clean trie cache to disk         path=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\triecache threads=12
+INFO [09-09|18:14:10.845] Persisted the clean trie cache           path=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\triecache elapsed=9.002ms
+INFO [09-09|18:14:10.845] Blockchain stopped
+mo@DESKTOP-KT4GSUT MINGW64 ~/Desktop/code/SRP/SRP/learn_eth (master)
+Welcome to the Geth JavaScript console!
+instance: Geth/v1.9.21-stable-0287d548/windows-amd64/go1.15
+at block: 0 (Thu Jan 01 1970 08:00:00 GMT+0800 (CST))
+GoError: first argument must be the account to unlock
+> eth.accounts[0]
+SyntaxError: (anonymous): Line 1:14 Unexpected token ] (and 2 more errors)
+> eth
+SyntaxError: (anonymous): Line 1:1 Unexpected token ILLEGAL (and 2 more errors)
+> eth.accounts
+[]
+!! Unsupported terminal, password will be echoed.
+Passphrase: 123456
+Repeat passphrase: 123456
+"0x415c462b5fc8388e995cb7c217c550974f73ba2d"
+SyntaxError: (anonymous): Line 1:51 Unexpected token ILLEGAL (and 72 more errors)
+> eth.accounts
+["0x415c462b5fc8388e995cb7c217c550974f73ba2d"]
+SyntaxError: (anonymous): Line 1:51 Unexpected token ILLEGAL (and 23 more errors)
+GoError: Error: account unlock with HTTP access is forbidden at web3.js:6347:37(47)
+>
+> personal
+{
+  listAccounts: ["0x415c462b5fc8388e995cb7c217c550974f73ba2d"],
+  listWallets: [{
+      accounts: [{...}],
+      status: "Locked",
+      url: "keystore://C:\\Users\\mo\\Desktop\\code\\SRP\\SRP\\learn_eth\\data0\\keystore\\UTC--2020-09-09T10-17-07.551270900Z--415c462b5fc8388e995cb7c217c550974f73ba2d"
+  }],
+  deriveAccount: function(),
+  ecRecover: function(),
+  getListAccounts: function(callback),
+  getListWallets: function(callback),
+  importRawKey: function(),
+  initializeWallet: function(),
+  lockAccount: function(),
+  newAccount: function(),
+  openWallet: function(),
+  sendTransaction: function(),
+  sign: function(),
+  signTransaction: function(),
+  unlockAccount: function(),
+  unpair: function()
+}
+...
+... ;
+...
+... )
+...
+... ,
+...
+... 。
+...
+... 123123
+... caught interrupt, exiting
+mo@DESKTOP-KT4GSUT MINGW64 ~/Desktop/code/SRP/SRP/learn_eth (master)
+" --nodiscover --ipcdisable console 2>>geth.log,txpool,web3"  --rpccorsdomain "*"
+Welcome to the Geth JavaScript console!
+instance: Geth/v1.9.21-stable-0287d548/windows-amd64/go1.15
+coinbase: 0x415c462b5fc8388e995cb7c217c550974f73ba2d
+at block: 0 (Thu Jan 01 1970 08:00:00 GMT+0800 (CST))
+> eth.accounts
+["0x415c462b5fc8388e995cb7c217c550974f73ba2d"]
+> personna.unlickAccount(eth.accounts[0],"123456",0)
+...    ee
+... caught interrupt, exiting
+mo@DESKTOP-KT4GSUT MINGW64 ~/Desktop/code/SRP/SRP/learn_eth (master)
+" --nodiscover --ipcdisable console 2>>geth.log,txpool,web3"  --rpccorsdomain "*"
+Welcome to the Geth JavaScript console!
+instance: Geth/v1.9.21-stable-0287d548/windows-amd64/go1.15
+coinbase: 0x415c462b5fc8388e995cb7c217c550974f73ba2d
+at block: 0 (Thu Jan 01 1970 08:00:00 GMT+0800 (CST))
+> 1
+1
+> miner.start()
+null
+> eth.getBalance(eth.account[0])
+SyntaxError: (anonymous): Line 1:17 Unexpected token ILLEGAL (and 6 more errors)
+SyntaxError: (anonymous): Line 1:1 Unexpected token ILLEGAL (and 17 more errors)
+>
+> eth.getBalance()
+Error: invalid address
+> eth.getBalance(eth.accounts[0])
+136000000000000000000
+> miner.stop()
+null
+> eth.getBalance(eth.accounts[0])
+152000000000000000000
+> personal
+{
+  listAccounts: ["0x415c462b5fc8388e995cb7c217c550974f73ba2d"],
+  listWallets: [{
+      accounts: [{...}],
+      status: "Locked",
+      url: "keystore://C:\\Users\\mo\\Desktop\\code\\SRP\\SRP\\learn_eth\\data0\\keystore\\UTC--2020-09-09T10-17-07.551270900Z--415c462b5fc8388e995cb7c217c550974f73ba2d"
+  }],
+  deriveAccount: function(),
+  ecRecover: function(),
+  getListAccounts: function(callback),
+  getListWallets: function(callback),
+  importRawKey: function(),
+  initializeWallet: function(),
+  lockAccount: function(),
+  newAccount: function(),
+  openWallet: function(),
+  sendTransaction: function(),
+  sign: function(),
+  signTransaction: function(),
+  unlockAccount: function(),
+  unpair: function()
+}
+function()
+... ;
+... eth
+... caught interrupt, exiting
+mo@DESKTOP-KT4GSUT MINGW64 ~/Desktop/code/SRP/SRP/learn_eth (master)
+" --nodiscover --ipcdisable console 2rsonal,shh,txpool,web3"  --rpccorsdomain "*"
+INFO [09-09|18:42:45.752] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [09-09|18:42:45.760] The flag --rpc is deprecated and will be removed in the future, please use --http
+WARN [09-09|18:42:45.760] The flag --rpcaddr is deprecated and will be removed in the future, please use --http.addr
+WARN [09-09|18:42:45.760] The flag --rpcport is deprecated and will be removed in the future, please use --http.port
+WARN [09-09|18:42:45.760] The flag --rpccorsdomain is deprecated and will be removed in the future, please use --http.corsdomain
+WARN [09-09|18:42:45.760] The flag --rpcapi is deprecated and will be removed in the future, please use --http.api
+INFO [09-09|18:42:45.786] Set global gas cap                       cap=25000000
+INFO [09-09|18:42:45.786] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [09-09|18:42:45.786] Allocated cache and file handles         database=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\chaindata cache=512.00MiB handles=8192
+INFO [09-09|18:42:45.806] Opened ancient database                  database=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\chaindata\ancient
+INFO [09-09|18:42:45.806] Initialised chain configuration          config="{ChainID: 15 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, YOLO v1: <nil>, Engine: unknown}"
+INFO [09-09|18:42:45.806] Disk storage enabled for ethash caches   dir=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\ethash count=3
+INFO [09-09|18:42:45.806] Disk storage enabled for ethash DAGs     dir=C:\Users\mo\AppData\Local\Ethash count=2
+INFO [09-09|18:42:45.806] Initialising Ethereum protocol           versions="[65 64 63]" network=1108 dbversion=8
+INFO [09-09|18:42:45.808] Loaded most recent local header          number=76 hash="4851f5…f46eae" td=10271102 age=18m40s
+INFO [09-09|18:42:45.808] Loaded most recent local full block      number=76 hash="4851f5…f46eae" td=10271102 age=18m40s
+INFO [09-09|18:42:45.808] Loaded most recent local fast block      number=76 hash="4851f5…f46eae" td=10271102 age=18m40s
+INFO [09-09|18:42:45.808] Loaded local transaction journal         transactions=0 dropped=0
+INFO [09-09|18:42:45.809] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [09-09|18:42:45.809] Switch sync mode from fast sync to full sync
+INFO [09-09|18:42:45.809] Starting peer-to-peer node               instance=Geth/v1.9.21-stable-0287d548/windows-amd64/go1.15
+INFO [09-09|18:42:45.833] New local node record                    seq=6 id=c5cbd79eaadd4c7d ip=127.0.0.1 udp=0 tcp=30303
+INFO [09-09|18:42:45.833] Started P2P networking                   self="enode://00c572104fca950008ffa99de2165ba97656efbd0fce15f73833d514a3f8420e8b6c0a36836efe458f06eb1788620a3acd3d3a40dedc5f759b8608cf9ebe913e@127.0.0.1:30303?discport=0"
+ERROR[09-09|18:42:45.833] Unavailable modules in HTTP API list     unavailable=[shh] available="[admin debug web3 eth txpool personal ethash miner net]"
+INFO [09-09|18:42:45.833] HTTP server started                      endpoint=[::]:8545 cors=* vhosts=localhost
+INFO [09-09|18:42:45.868] Etherbase automatically configured       address=0x415c462b5fC8388E995CB7c217C550974F73bA2D
+Welcome to the Geth JavaScript console!
+instance: Geth/v1.9.21-stable-0287d548/windows-amd64/go1.15
+coinbase: 0x415c462b5fc8388e995cb7c217c550974f73ba2d
+at block: 76 (Wed Sep 09 2020 18:24:05 GMT+0800 (CST))
+> var abi = [
+SyntaxError: (anonymous): Line 2:13 Unexpected token : (and 6 more errors)
+> ]
+SyntaxError: (anonymous): Line 1:1 Unexpected token ]
+> var abi = [{"constant":true,"inputs":[],"name":"showStr","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"newStr","type":"string"}],"name":"changeStr","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"}]
+undefined
+> var contract = web3.eth.contract(abi)
+SyntaxError: (anonymous): Line 1:35 Unexpected token ILLEGAL (and 3 more errors)
+> WARN [09-09|18:49:57.829] Served eth_sendTransaction               conn=127.0.0.1:63368 reqid=1193 t="998.9µs" err="authentication needed: password or unlock"
+caught interrupt, exiting
+INFO [09-09|18:50:35.808] Got interrupt, shutting down...
+INFO [09-09|18:50:36.308] HTTP server stopped                      endpoint=[::]:8545
+INFO [09-09|18:50:36.308] Ethereum protocol stopped
+INFO [09-09|18:50:36.308] Transaction pool stopped
+INFO [09-09|18:50:36.308] Writing cached state to disk             block=76 hash="4851f5…f46eae" root="656ee9…e01a05"
+INFO [09-09|18:50:36.308] Persisted trie from memory database      nodes=0 size=0.00B time=0s gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [09-09|18:50:36.308] Writing cached state to disk             block=75 hash="e569a3…d4de96" root="55e821…7c6c1d"
+INFO [09-09|18:50:36.308] Persisted trie from memory database      nodes=0 size=0.00B time=0s gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [09-09|18:50:36.308] Writing clean trie cache to disk         path=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\triecache threads=12
+INFO [09-09|18:50:36.315] Persisted the clean trie cache           path=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\triecache elapsed=7.039ms
+INFO [09-09|18:50:36.315] Blockchain stopped
+mo@DESKTOP-KT4GSUT MINGW64 ~/Desktop/code/SRP/SRP/learn_eth (master)
+" --nodiscover --ipcdisable console 2rsonal,shh,txpool,web3"  --rpccorsdomain "*"
+INFO [09-09|18:50:46.696] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [09-09|18:50:46.704] The flag --rpc is deprecated and will be removed in the future, please use --http
+WARN [09-09|18:50:46.704] The flag --rpcaddr is deprecated and will be removed in the future, please use --http.addr
+WARN [09-09|18:50:46.704] The flag --rpcport is deprecated and will be removed in the future, please use --http.port
+WARN [09-09|18:50:46.704] The flag --rpccorsdomain is deprecated and will be removed in the future, please use --http.corsdomain
+WARN [09-09|18:50:46.704] The flag --rpcapi is deprecated and will be removed in the future, please use --http.api
+INFO [09-09|18:50:46.730] Set global gas cap                       cap=25000000
+INFO [09-09|18:50:46.730] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [09-09|18:50:46.730] Allocated cache and file handles         database=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\chaindata cache=512.00MiB handles=8192
+INFO [09-09|18:50:46.760] Opened ancient database                  database=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\chaindata\ancient
+INFO [09-09|18:50:46.761] Initialised chain configuration          config="{ChainID: 15 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, YOLO v1: <nil>, Engine: unknown}"
+INFO [09-09|18:50:46.761] Disk storage enabled for ethash caches   dir=C:\Users\mo\Desktop\code\SRP\SRP\learn_eth\data0\geth\ethash count=3
+INFO [09-09|18:50:46.761] Disk storage enabled for ethash DAGs     dir=C:\Users\mo\AppData\Local\Ethash count=2
+INFO [09-09|18:50:46.761] Initialising Ethereum protocol           versions="[65 64 63]" network=1108 dbversion=8
+INFO [09-09|18:50:46.763] Loaded most recent local header          number=76 hash="4851f5…f46eae" td=10271102 age=26m41s
+INFO [09-09|18:50:46.763] Loaded most recent local full block      number=76 hash="4851f5…f46eae" td=10271102 age=26m41s
+INFO [09-09|18:50:46.763] Loaded most recent local fast block      number=76 hash="4851f5…f46eae" td=10271102 age=26m41s
+INFO [09-09|18:50:46.763] Loaded local transaction journal         transactions=0 dropped=0
+INFO [09-09|18:50:46.764] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [09-09|18:50:46.764] Switch sync mode from fast sync to full sync
+INFO [09-09|18:50:46.764] Starting peer-to-peer node               instance=Geth/v1.9.21-stable-0287d548/windows-amd64/go1.15
+INFO [09-09|18:50:46.785] New local node record                    seq=7 id=c5cbd79eaadd4c7d ip=127.0.0.1 udp=0 tcp=30303
+INFO [09-09|18:50:46.785] Started P2P networking                   self="enode://00c572104fca950008ffa99de2165ba97656efbd0fce15f73833d514a3f8420e8b6c0a36836efe458f06eb1788620a3acd3d3a40dedc5f759b8608cf9ebe913e@127.0.0.1:30303?discport=0"
+ERROR[09-09|18:50:46.786] Unavailable modules in HTTP API list     unavailable=[shh] available="[admin debug web3 eth txpool personal ethash miner net]"
+INFO [09-09|18:50:46.786] HTTP server started                      endpoint=[::]:8545 cors=* vhosts=localhost
+INFO [09-09|18:50:46.821] Etherbase automatically configured       address=0x415c462b5fC8388E995CB7c217C550974F73bA2D
+Welcome to the Geth JavaScript console!
+instance: Geth/v1.9.21-stable-0287d548/windows-amd64/go1.15
+coinbase: 0x415c462b5fc8388e995cb7c217c550974f73ba2d
+at block: 76 (Wed Sep 09 2020 18:24:05 GMT+0800 (CST))
+> abi
+ReferenceError: abi is not defined
+> var abi = [{"constant":false,"inputs":[{"name":"newStr","type":"string"}],"name":"changeStr","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"showStr","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"}]
+undefined
+> abi
+[{
+    constant: false,
+    inputs: [{
+        name: "newStr",
+        type: "string"
+    }],
+    name: "changeStr",
+    outputs: [],
+    payable: false,
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    constant: true,
+    inputs: [],
+    name: "showStr",
+    outputs: [{
+        name: "",
+        type: "string"
+    }],
+    payable: false,
+    stateMutability: "view",
+    type: "function"
+}]
+> var contract = web3.eth.contract(abi)
+SyntaxError: (anonymous): Line 1:35 Unexpected token ILLEGAL (and 3 more errors)
+> var contract_address=
+var contract_address = "0xbbf289d846208c16edc8474705c748aff07732db"
+var abi = [{"constant":false,"inputs":[{"name":"newStr","type":"string"}],"name":"changeStr","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"showStr","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"}]
+var contract = web3.eth.contract()[Dabi).at()[Dcontract_address)
+web3
+web3.eth
+web3.eth.contract
+web3.eth.contract()[Dabi)
+abi
+eth.accounts[0]
+account[D[D[D[D[D[D[Dvar account = "0x415c462b5fc8388e995cb7c217c550974f73ba2d"
+var acc = "0x415c462b5fc8388e995cb7c217c550974f73ba2d"
+personnal.unlockAccount()[Dacc)
+eth.accounts
+eth.account
+[A[Beth.accounts
+eth
+eth.accounts
+miner.start()
+mominer.st
+miner.stop()
+miner.start()
+[Aminer.stop()
+miner.stop()
+eth.getBalance()[Deth.accounts[0])
+eth.getBalance
+eth.accounts
+eth.getBalance(eth.accounts[0])
+eth.accounts[0]
